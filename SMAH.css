@@ -15,13 +15,14 @@
     border: none;
     padding: 18px;
     border-radius: 9px;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .logo h2 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 900;
 }
 
@@ -30,13 +31,19 @@
 }
 
 header {
+    min-height: 100vh;
     background-color: #fff8f3;
+    background: url(images/developer.png),
+    url(images/header_bg.png),  #fff8f3;
+    background-position: 20px center, bottom right;
+    background-repeat: no-repeat;
+    background-size: auto 90%, auto 100%;
     padding-top: 70px;
 }
 
 nav {
-    width: 95%;
-    max-width: 1400px;
+    width: 60%;
+    max-width: 1000px;
     border:1px solid none;
     margin:  0px auto;
     display: flex;
@@ -49,11 +56,53 @@ nav .menu {
     list-style-type: none;
     gap: 60px;
     align-items: center;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav .menu a {
-    font-size: 25px;
+    font-size: 18px;
     color:#474747;
     text-decoration: none;
+}
+
+#banner {
+    /*border: 1px solid rgb(245, 7, 7);*/
+    margin: 47px 130px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content {
+    max-width: 600px;
+}
+
+#banner .banner-content h2 {
+   font-size: 38px;
+   font-weight: 600;
+   color: #474747;
+   margin-bottom: 5px;
+} 
+
+#banner .banner-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p {
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-image {
+     margin-top: 49px;
+}
+
+#banner .banner-content img {
+    max-width: 1000px;
+    vertical-align: middle;
 }
