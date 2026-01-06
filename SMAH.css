@@ -28,6 +28,7 @@
 .section-heading {
     max-width: 827px; 
     text-align: center;
+    margin: 0 auto;
 }
 
 .section-heading h2 {
@@ -158,4 +159,47 @@ nav .menu a {
 
 .about-info .info-card h4 {
     font-size: 16px;
+}
+
+
+#skills {
+    padding-top: 140px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#skills .skills-container {
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#skills .skill-box {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.skill-box .skill-card {
+    padding: 25px;
+    /*border: 1px solid red;*/
+    box-shadow: 0 6px 50px 0 #00000029;
+    max-width: 250px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    color : #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card img {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    line-height: 23px;
+    color: #757575;
 }
